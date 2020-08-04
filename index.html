@@ -196,11 +196,18 @@
       font-size: 150px;
     }
   }
+  .bg_about{
+    background-image:url('images/pencil_sm.png'); 
+    background-position:center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+    }
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top w3-2019-evening-blue">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -215,35 +222,36 @@
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#services">SERVICES</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li><a href="brochure.pdf">DOWNLOADS</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" style="background-image: url('images/pen_sm.jpg'); background-position: no-repeat; background-color:yellow; background-size:cover; background-repeat: no-repeat;">
   <h1>WEBNTO</h1> 
    <p>Cutting-Edge Digital Solutions </p>
   
 </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="about">
   <div class="row">
-    <div class="col-sm-8">
-      <h2>About Webnto</h2><br>
-      <h4>We’re a young and talented group of entrepreneurs and engineers with a groundbreaking idea that we hope will contribute towards a better tomorrow. We provide smart solutions for companies of all sizes and pride ourselves on our unparalleled, dedicated service.</h4><br/>
-      <p>At Webnto, we believe that the right understanding and technological edge can lead companies towards a successful future. We always seek valuable feedback from our clients in order to learn and evolve. Contact us today to set up a meeting with one of our sales representatives or request a demo.</p>  
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>
+    <div class="col-sm-12 bg_about">      
+      <h2 class="text-center">About Webnto</h2><br>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-9 text-center">
+        <h4>We’re a young and talented group of entrepreneurs and engineers with a groundbreaking idea that we hope will contribute towards a better tomorrow. We provide smart solutions for companies of all sizes and pride ourselves on our unparalleled, dedicated service.</h4><br/>
+        <p>At Webnto, we believe that the right understanding and technological edge can lead companies towards a successful future. We always seek valuable feedback from our clients in order to learn and evolve. Contact us today to set up a meeting with one of our sales representatives or request a demo.</p>
+      </div>  
+    </div>    
   </div>
 </div>
 
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      <img src="images/bschool.jpg" style="width: 100%;">
     </div>
     <div class="col-sm-8">
       <h2>Main MOTTO</h2><br>
@@ -266,17 +274,17 @@
     <div class="col-sm-3">
       <i class='fas fa-desktop logo-small' style='font-size:48px;'></i>
       <h4><strong>Software Solutions</strong></h4>
-      <p>To get rid of paperwork we have solution as software</p>
+      <p>Websites, Apps, Dashboards. We got it all</p>
     </div>
     <div class="col-sm-3">
       <i class='fas fa-palette logo-small' style='font-size:48px;'></i>
       <h4><strong>Graphic Design</strong></h4>
-      <p>Functions like Farewell,Freshers,Annual you don't neet step out we have one step solution for you</p>
+      <p>Make your brand appeal significantly hight</p>
     </div>
     <div class="col-sm-3">
       <i class='fas fa-tools logo-small' style='font-size:48px;'></i>
       <h4><strong>Hardware Support</strong></h4>
-      <p>Get assured Maintence withing 24hrs</p>
+      <p>Get assured Maintence within 24hrs</p>
     </div>
      <div class="col-sm-3">
       <i class='fas fa-search-dollar logo-small' style='font-size:48px;'></i>
@@ -284,6 +292,7 @@
       <p>Reach your target audience and earn huge revenues</p>
   </div>
 </div>
+<hr style="width: 50%;color:yellow; margin-right: 25%; margin-left: 25%; height: 10px" >
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
@@ -295,6 +304,7 @@
       <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:info@webanto.co">info@webanto.co</a>  </p>
     </div>
     <div class="col-sm-6 slideanim">
+      
      <a href="https://forms.gle/1D7yyLL4LRceFz9E9" class="btn btn-warning btn-block btn-lg">Click me</a>
     </div>
   </div>
